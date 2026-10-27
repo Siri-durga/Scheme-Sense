@@ -149,5 +149,3 @@ API docs: http://localhost:8000/docs
 - CORS configured for local development
 - Input validation with Pydantic v2
 
----
-Built with ❤️ for Indian citizens
