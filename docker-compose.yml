@@ -9,7 +9,7 @@ services:
       POSTGRES_PASSWORD: schemesense123
       POSTGRES_DB: schemesense
     ports:
-      - "5432:5432"
+      - "5433:5432"
     volumes:
       - pgdata:/var/lib/postgresql/data
     healthcheck:
@@ -51,7 +51,7 @@ services:
       ENVIRONMENT: development
       CORS_ORIGINS: http://localhost:3000
     ports:
-      - "8000:8000"
+      - "8001:8000"
     depends_on:
       db:
         condition: service_healthy
@@ -67,7 +67,7 @@ services:
       dockerfile: Dockerfile
     container_name: schemesense_frontend
     environment:
-      NEXT_PUBLIC_API_URL: http://localhost:8000
+      NEXT_PUBLIC_API_URL: http://localhost:8001
     ports:
       - "3000:3000"
     depends_on:

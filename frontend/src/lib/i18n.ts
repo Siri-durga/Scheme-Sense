@@ -2,7 +2,7 @@ export type Lang = 'en' | 'te';
 
 export const translations = {
   en: {
-    appName: 'SchemeSense AI',
+    appName: 'Scheme Sense AI',
     tagline: 'Discover Government Schemes You Deserve',
     login: 'Login',
     register: 'Register',
@@ -14,6 +14,7 @@ export const translations = {
     mySchemes: 'My Schemes',
     saved: 'Saved',
     chat: 'AI Assistant',
+    guidance: 'Guidance',
     profile: 'My Profile',
     admin: 'Admin Panel',
     totalEligible: 'Total Eligible Schemes',
@@ -100,6 +101,7 @@ export const translations = {
     mySchemes: 'నా పథకాలు',
     saved: 'సేవ్ చేసినవి',
     chat: 'AI సహాయకుడు',
+    guidance: 'మార్గదర్శకం',
     profile: 'నా ప్రొఫైల్',
     admin: 'అడ్మిన్ ప్యానెల్',
     totalEligible: 'మొత్తం అర్హమైన పథకాలు',

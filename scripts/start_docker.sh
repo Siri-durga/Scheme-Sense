@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "🐳 Starting SchemeSense AI with Docker..."
+echo "🐳 Starting Scheme Sense AI with Docker..."
 
 # Optional: pass your OpenAI key
 # export OPENAI_API_KEY=sk-your-key-here

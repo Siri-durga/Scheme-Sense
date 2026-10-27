@@ -6,7 +6,7 @@ import { Toaster } from 'react-hot-toast';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'SchemeSense AI - Government Scheme Discovery',
+  title: 'Scheme Sense AI - Government Scheme Discovery',
   description: 'AI-powered platform to discover and apply for government schemes you are eligible for',
 };
 

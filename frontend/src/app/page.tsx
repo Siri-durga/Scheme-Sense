@@ -21,8 +21,10 @@ export default function Home() {
   return (
     <div className="min-h-screen flex items-center justify-center gradient-hero">
       <div className="text-center">
-        <div className="text-5xl mb-4">🇮🇳</div>
-        <h1 className="text-3xl font-bold text-gray-900 mb-2">SchemeSense AI</h1>
+        <div className="w-14 h-14 rounded-2xl bg-green-600 text-white flex items-center justify-center font-bold text-xl mx-auto mb-4 shadow-md">
+          SS
+        </div>
+        <h1 className="text-3xl font-bold text-gray-900 mb-2">Scheme Sense AI</h1>
         <p className="text-gray-500">Loading...</p>
       </div>
     </div>

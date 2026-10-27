@@ -303,7 +303,7 @@ async def seed_database():
         admin = User(
             email="admin@schemesense.ai",
             password_hash=get_password_hash("Admin@123"),
-            full_name="SchemeSense Admin",
+            full_name="Scheme Sense Admin",
             role="admin",
         )
         db.add(admin)

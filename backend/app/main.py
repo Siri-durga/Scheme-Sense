@@ -16,7 +16,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="SchemeSense AI",
+    title="Scheme Sense AI",
     description="AI-powered government scheme discovery platform",
     version="1.0.0",
     lifespan=lifespan,
@@ -37,7 +37,7 @@ app.include_router(admin.router, prefix="/api/admin", tags=["admin"])
 
 @app.get("/")
 async def root():
-    return {"message": "SchemeSense AI API", "version": "1.0.0", "status": "running"}
+    return {"message": "Scheme Sense AI API", "version": "1.0.0", "status": "running"}
 
 
 @app.get("/health")

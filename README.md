@@ -1,4 +1,4 @@
-# 🇮🇳 SchemeSense AI
+# Scheme Sense AI
 
 **AI-powered platform to discover Indian government schemes you are eligible for.**
 

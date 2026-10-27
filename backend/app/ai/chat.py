@@ -2,7 +2,7 @@ from typing import Optional, List
 from app.core.config import settings
 
 
-SCHEME_CONTEXT_TEMPLATE = """You are SchemeSense AI, a helpful assistant that helps Indian citizens find government schemes they are eligible for.
+SCHEME_CONTEXT_TEMPLATE = """You are Scheme Sense AI, a helpful assistant that helps Indian citizens find government schemes they are eligible for.
 
 Answer ONLY based on the scheme information provided below. Do not hallucinate or invent schemes.
 If the user asks something not covered by the data, say you don't have that information.

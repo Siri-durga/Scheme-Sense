@@ -1,7 +1,7 @@
 #!/bin/bash
 set -e
 
-echo "🇮🇳 SchemeSense AI - Local Setup Script"
+echo "Scheme Sense AI - Local Setup Script"
 echo "========================================"
 
 # Check prerequisites

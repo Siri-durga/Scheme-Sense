@@ -30,8 +30,8 @@ export default function ChatPage() {
       setMessages([{
         role: 'assistant',
         content: user.preferred_language === 'te'
-          ? `నమస్కారం ${user.full_name.split(' ')[0]}! 👋 నేను SchemeSense AI. మీకు అర్హమైన ప్రభుత్వ పథకాల గురించి అడగండి.`
-          : `Hello ${user.full_name.split(' ')[0]}! 👋 I'm SchemeSense AI. Ask me about government schemes you qualify for, required documents, or how to apply.`,
+          ? `నమస్కారం ${user.full_name.split(' ')[0]}! 👋 నేను Scheme Sense AI. మీకు అర్హమైన ప్రభుత్వ పథకాల గురించి అడగండి.`
+          : `Hello ${user.full_name.split(' ')[0]}! 👋 I'm Scheme Sense AI. Ask me about government schemes you qualify for, required documents, or how to apply.`,
         timestamp: new Date(),
       }]);
     }
@@ -74,7 +74,7 @@ export default function ChatPage() {
           </div>
           <div>
             <h1 className={`font-bold text-gray-900 ${lang === 'te' ? 'telugu' : ''}`}>
-              {lang === 'te' ? 'SchemeSense AI సహాయకుడు' : 'SchemeSense AI Assistant'}
+              {lang === 'te' ? 'Scheme Sense AI సహాయకుడు' : 'Scheme Sense AI Assistant'}
             </h1>
             <p className="text-xs text-green-600 flex items-center gap-1">
               <span className="w-1.5 h-1.5 bg-green-500 rounded-full inline-block" /> Online • Scheme data grounded
